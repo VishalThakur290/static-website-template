@@ -1,0 +1,147 @@
+@media only screen and (max-width: 800px){
+    .socialMedia{
+        display: none;
+    }
+
+
+    .welcomeHeading p{
+        font-size: 25px;
+    }
+    .welcomeCaption p{
+        font-size: 16px;
+    }
+    .welcomeSectionInnerContainer{
+        padding: 100px 0;
+    }
+    .welcomeSectionMainContainer{
+        height: 340px;
+        width: 100%;
+    }
+
+    .introSectionMainContainer{
+        height: 300px!important;
+        width: 100%;
+    }
+    .introSectionInnerContainer .introBlank{
+        display: none;
+    }
+    .introSectionInnerContainer .introNoteInnerContainer{
+        padding: 80px 20px;
+    }
+    .introSectionInnerContainer .introNote{
+        width: 100%;
+        height: 300px;
+        float: none;
+    }
+    .introSectionMainContainer .introHeading p{
+        font-size: 18px;
+    }
+   
+    .eventContainer .eventDetails{
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+    .eventContainer .eventImage{
+        width: 100%;
+        float: none;
+    }
+
+
+    .companySectionMainContainer{
+        margin-top: 0!important;
+        height: 1000px;
+    }
+    .companySectionMainContainer .companyLeftSection{
+        width: 100%;
+        float: none;
+    }
+    .companySectionMainContainer .companyRightSection{
+        width: 100%;
+        float: none;
+    }
+    .icon1 article, .icon2 article{
+        width: 50%;
+    }
+
+
+    .testimonial{
+        height: 560px;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.466);
+        clear: both;
+    }
+    .testimonial .testimonialHeading p{
+        padding-top: 70px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .testimonial .owl-carousel{
+        margin: 0;
+    }
+    .testimonial .testimonial-section{
+        padding: 20px!important;
+    }
+    .testimonial .testimonial-image i{
+        font-size: 100px;
+        color: #fff; 
+    }
+
+
+    .recentBlogSection{
+        width: 100%;
+        margin-top: 60px!important;
+        height: 1650px!important;
+    }
+    .recentBlogContainer .recentBlogs{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    footer{
+        height: 300px;
+        width: 100%;
+    }
+    footer .form{
+        width: 90%!important;
+        margin: auto;
+    }
+    footer .heading{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width: 1100px){
+    .companySectionMainContainer{
+        margin-top: 30px;
+        height: 1000px;
+    }
+    .companySectionMainContainer .companyLeftSection{
+        width: 100%;
+        float: none;
+    }
+    .companySectionMainContainer .companyRightSection{
+        width: 100%;
+        float: none;
+    }
+
+    .recentBlogSection{
+        width: 100%;
+        margin-top: 60px!important;
+        height: 650px!important;
+    }
+    .recentBlogContainer .recentBlogs{
+        float: left;
+        width: 30%;
+    }
+    
+    footer .form{
+        width: 50%!important;
+        margin: auto;
+    }
+}

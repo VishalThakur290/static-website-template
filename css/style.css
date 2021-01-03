@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* header css start */
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #fff;
+}
+.logo, .socialMedia, .menu{
+    float: left;
+}
+.socialMedia{
+    margin-top: 5px;
+    text-align: center;
+    float: right;
+    margin-right: 40px;
+}
+.socialMedia i{
+    margin-left: 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(233, 162, 122, 0.781);
+    border: 2px slid rgba(233, 162, 122, 0.781);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 10px!important;
+    text-align: center;
+}
+.socialMedia .fa-facebook{
+    margin-left: 5px;
+}
+.socialMedia .fa-linkedin{
+    margin-left: 2px;
+    margin-top: -10px!important;
+}
+.socialMedia ul li{
+    list-style: none;
+    float: left;
+}
+.menu{
+    float: right;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.menu .fa-bars:hover{
+    cursor: pointer;
+    color: rgba(233, 162, 122, 0.781);
+}
+.menu span{
+    margin-right: 10px;
+}
+
+/* nav css start */
+#nav{
+    font-family: 'Roboto', sans-serif;
+    height: 265px;
+    width: 100%;
+    border-top: 2px solid gray;
+    background-color: #fff;
+    z-index: 4444;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    display: none;
+}
+#nav ul li{
+    padding: 17px 0 0 25px;
+    list-style: none;
+}
+#nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+#nav .active{
+    color: rgba(233, 162, 122, 0.781);   
+}
+#nav a:hover{
+    transition: 0.5s all;
+    color: rgba(233, 162, 122, 0.781);
+}
+/* nav css end */
+
+/* header css end */
+
+.welcomeSectionMainContainer{
+    background-color: rgba(128, 128, 128, 0.459);
+    color: #fff;
+    height: 450px;
+    width: 100%;
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+}
+.welcomeSectionInnerContainer{
+    padding: 150px 0;
+}
+.welcomeHeading, .welcomeCaption, .welcomeButton{
+    text-align: center;
+}
+.welcomeHeading p{
+    font-size: 45px;
+    margin: 0 0 10px 0;
+}
+.welcomeCaption p{
+    font-size: 21px;
+    margin: 0 0 10px 0;
+}
+.welcomeButton .button1{
+    width: 190px;
+    padding: 15px 20px;
+    background-color: rgba(233, 162, 122, 0.781);
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.welcomeButton .button1:hover{
+    background-color: #fff;
+    color: rgba(233, 162, 122, 0.781);
+}
+.welcomeButton .button2{
+    width: 150px;
+    padding: 15px 20px;
+    transition: 0.5s all;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.welcomeButton .button2:hover{
+    background-color: #fff;
+    color: rgba(233, 162, 122, 0.781);
+}
+
+.introSectionMainContainer{
+    background-image: url('../img/nv.jpg')!important;
+    height: 500px;
+    width: 100%;
+    clear: both;
+    background-position: center!important;
+	background-repeat: no-repeat!important;
+	font-family: 'Roboto', sans-serif;
+}
+.introSectionInnerContainer .introNote{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: rgba(233, 162, 122, 0.3);
+}
+.introSectionInnerContainer .introNoteInnerContainer{
+    padding: 190px 50px;
+}
+.introSectionInnerContainer .introBlank{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.introSectionMainContainer .introButton .button{
+    padding: 13px 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.introSectionMainContainer .introButton .button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.introSectionMainContainer .introHeading p{
+    font-size: 22px;
+    margin: 0 0 10px 0;
+}
+.introSectionMainContainer .introCaption{
+    color: #fff;
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
+
+.companySectionMainContainer{
+    height: 520px;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    clear: both;
+}
+.companySectionMainContainer .caption, .mainHeading p{
+    color: rgb(253, 173, 186);
+}
+.companySectionMainContainer .companyLeftSection{
+    width: 50%;
+    float: left;
+}
+.companySectionMainContainer .companyRightSection{
+    width: 50%;
+    float: left;
+}
+.companySectionMainContainer .icon1{
+    width: 27%;
+    float: left!important;
+}
+.companySectionMainContainer .icon2{
+    width: 27%;
+    float: left;
+}
+.companySectionMainContainer .services{
+    width: 73%;
+    float: left;
+}
+.companySectionMainContainer .companyRightSectionDetails, .companyLeftSectionDetails{
+    padding: 10px 0;
+    float: left;
+}
+.companySectionMainContainer .mainHeading{
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.companySectionMainContainer .mainHeading h3, p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.companySectionMainContainer .companyLeftSectionDetails article{
+    float: right;
+    margin-right: 20px!important;
+}
+.icon1 article, .icon2 article{
+    background-color: rgb(253, 173, 186);
+    border: 2px solid rgb(253, 173, 186);
+    border-radius: 50%;
+    padding: 20px;
+    width: 40%;
+}
+.companySectionMainContainer .icon1 img, .icon2 img{
+    height: 50px;
+    width: 50px;
+}
+.companySectionMainContainer .heading1, .heading2{
+    font-weight: 900;
+    font-size: 17px;
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+.companySectionMainContainer .heading1{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+.companySectionMainContainer .caption{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* testimonial section start */
+.testimonial{
+    height: 720px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../img/testimonial.jpg')!important;
+    background-size: cover;
+    opacity: 0.8;
+    clear: both;
+    background-position: center!important;
+	background-repeat: no-repeat!important;
+    clear: both;
+}
+.testimonial .testimonialHeading p{
+    padding-top: 70px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+}
+.testimonial .owl-carousel{
+    margin: 60px 0;
+}
+.testimonial .testimonial-section{
+    padding: 50px 20px!important;
+}
+.testimonial .testimonial-image{
+    margin: auto;
+    text-align: center;
+}
+.testimonial .testimonial-image i{
+    font-size: 150px;
+    color: #fff;
+}
+.testimonial .testimonialContainer{
+    padding: 30px 0;
+}
+.testimonial .testimonial-details{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.testimonial .testimonial-details h5{
+    font-weight: 800;
+    margin-top: 50px;
+    font-size: 24px;
+}
+.testimonial .testimonial-details h6{
+    font-weight: 550;
+    font-size: 17px;
+    margin-top: 35px;
+}
+/* testimonial section end */
+
+/* event section css start */
+.eventSection{
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+    width: 80%;
+    margin: auto;
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+}
+.eventContainer{
+    width: 100%;
+    float: left;
+    margin-top: 30px!important;
+}
+.eventContainer .eventImage{
+    width: 30%;
+    float: left;
+}
+.eventContainer .eventDetails{
+    width: 68%;
+    margin-left: 20px;
+    float: left;
+}
+.eventSection .eventHeading{
+    font-size: 30px;
+    width: 100%;
+    font-weight: 850;
+}
+.eventContainer .eventHeading{
+    font-size: 20px;
+    font-weight: 850;
+    margin-bottom: 20px!important;
+}
+.eventContainer button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: rgba(233, 162, 122, 0.781);
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s all;
+    border: 1px solid rgba(233, 162, 122, 0.781);
+}
+.eventContainer button:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+.eventDetails td{
+    padding: 6px 0!important;
+}
+.eventLocation i{
+    color: rgba(233, 162, 122, 0.781);
+}
+/* event section css end */
+
+/* blog section css start */
+.blogCaption{
+    color: rgba(233, 162, 122, 0.781);
+}
+.recentBlogSection{
+    width: 100%;
+    margin-top: 80px!important;
+    clear: both;
+    height: 700px;
+    background-color: #e9ecef98;
+    font-family: 'Roboto', sans-serif;
+}
+.recentBlogSection .recentBlogContainer{
+    width: 80%;
+    padding: 80px 0!important;
+    margin: auto;
+}
+.recentBlogContainer .recentBlogs{
+    float: left;
+    width: 31.3%;
+}
+.recentBlogContainer article{
+    text-align: center;
+}
+.recentBlogContainer .blogHeading{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.recentBlogContainer .blogCaption{
+    margin-bottom: 15px;
+}
+.recentBlogContainer .recentBlogImage{
+    width: 100%;
+    clear: both;
+}
+.recentBlogContainer .recentBlogDetails{
+    width: 100%;
+    height: 230px;
+    margin-top: -10px;
+    background-color: #fff;
+    clear: both;
+}
+.recentBlogContainer .recentBlogDate{
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 100%;
+    background-color: rgba(233, 162, 122, 0.2);
+    color: rgba(233, 162, 122, 0.781);
+}
+.recentBlogContainer .recentBlogInfo{
+    width: 75%;
+    float: left;
+}
+.recentBlogContainer .recentBlogDate .blogDate{
+    font-size: 50px;
+}
+.recentBlogDetails .heading{
+    text-align: left;
+    padding: 20px 20px 0 20px;
+    font-weight: 900;
+    font-size: 22px;
+}
+.recentBlogDetails .info{
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.39);
+    padding: 10px 20px 0 20px;
+}
+/* blog section css end */
+
+/* footer section css start */
+footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 400px;
+    width: 100%;
+    clear: both;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+footer .form{
+    width: 30%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+footer input{
+    padding: 20px!important;
+    width: 60%;
+    outline: none;
+    border: none;
+}
+footer button{
+    padding: 20px!important;
+    width: 28.35%;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(233, 162, 122, 0.781);
+}
+footer article{
+    text-align: center;
+}
+footer .heading{
+    padding-top: 120px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 13px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    transition: 0.5s all;
+    color: rgba(233, 162, 122, 0.781);
+}
+/* footer section css end */
