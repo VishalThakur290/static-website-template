@@ -2,6 +2,7 @@ This is a simple static website for demo use.
 This is free to use.
 If you like this template just star this repository.
 
+Note* :- The logo is used from "indegene.com" website for demo purpose.
 
 follow me for more information via :-
 1. Website :- https://vishalthakur.simdif.com/
